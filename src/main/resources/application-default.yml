@@ -1,0 +1,16 @@
+### Default Environment ###
+
+server:
+  port: 9050
+
+spring:
+
+  datasource:
+    url: jdbc:mysql://localhost/test
+    username: root
+    password: ""
+    driver-class-name: "com.mysql.jdbc.Driver"
+
+  redis:
+      host: localhost
+      port: 6379
